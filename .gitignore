@@ -1,0 +1,5 @@
+/node_modules/
+/public/
+/build/
+/source/.jekyll-cache
+.jekyll-metadata

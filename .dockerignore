@@ -1,0 +1,37 @@
+.DS_Store
+.vscode
+
+# --
+# Ruby
+# --
+vendor/
+coverage/
+Gemfile.lock
+spec/fixture/site/
+spec/fixture/result/
+spec/fixture/out/
+.bundle/
+*.gem
+
+/public
+_site/
+/source/.jekyll-cache/
+/source/.jekyll-metadata
+/source/.asset-cache/
+site/
+
+# --
+# Rails
+# --
+/npm-error.log
+.byebug_history
+/yarn-error.log
+/node_modules
+.pry_history
+/log
+/tmp
+
+#
+# Git
+#
+/.git

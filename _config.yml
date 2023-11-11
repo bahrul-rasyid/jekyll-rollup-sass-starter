@@ -1,0 +1,30 @@
+title: Jekyll Starter
+version: "0.1.0"
+
+baseurl: ""
+source: source
+destination: public
+
+# Build settings
+markdown: kramdown
+exclude:
+  - src
+keep_files:
+  - assets/vendor
+  - assets/js
+  - assets/css
+
+# defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "main"
+      local_url: "."
+  - scope:
+      path: "*/"
+      type: "pages"
+    values:
+      layout: "main"
+      local_url: ".."
